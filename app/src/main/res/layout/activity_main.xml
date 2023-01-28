@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sessionb"
+    tools:context=".MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="680dp"
+
+        tools:ignore="SpeakableTextPresentCheck"
+        android:fillViewport="true">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="180dp"
+                android:layout_marginTop="20dp"
+                android:text="Relax"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="30sp">
+            </TextView>
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="60dp"
+                android:src="@drawable/relaximg" />
+
+            <ImageView
+                android:id="@+id/playbtn"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="150dp"
+                android:scaleX="2.3"
+                android:scaleY="2.3"
+                android:onClick="playptn"
+                android:tag="playbtn"
+                android:src="@drawable/playbtn" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="220dp"
+                android:layout_marginTop="60dp"
+                android:src="@drawable/relaximg" />
+
+            <ImageView
+                android:id="@+id/playbtn1"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="240dp"
+                android:layout_marginTop="150dp"
+                android:onClick="playptn1"
+                android:tag="playbtn1"
+                android:scaleX="2.3"
+                android:scaleY="2.3"
+                android:src="@drawable/playbtn" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="190dp">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="60dp"
+                android:src="@drawable/relaximg" />
+
+            <ImageView
+                android:id="@+id/playbtn2"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="150dp"
+                android:scaleX="2.3"
+                android:scaleY="2.3"
+                android:onClick="playptn2"
+                android:tag="playbtn2"
+                android:src="@drawable/playbtn" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="220dp"
+                android:layout_marginTop="60dp"
+                android:src="@drawable/relaximg" />
+
+            <ImageView
+                android:id="@+id/playbtn3"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="240dp"
+                android:layout_marginTop="150dp"
+                android:scaleX="2.3"
+                android:scaleY="2.3"
+                android:onClick="playptn3"
+                android:tag="playbtn3"
+                android:src="@drawable/playbtn" />
+        </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="420dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="180dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Sleep"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:textSize="30sp">
+                </TextView>
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="60dp"
+                    android:src="@drawable/sleepimg" />
+
+                <ImageView
+                    android:id="@+id/playbtn4"
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="150dp"
+                    android:scaleX="2.3"
+                    android:scaleY="2.3"
+                    android:onClick="playptn4"
+                    android:tag="playbtn4"
+                    android:src="@drawable/playbtn" />
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="220dp"
+                    android:layout_marginTop="60dp"
+                    android:src="@drawable/sleepimg" />
+
+                <ImageView
+                    android:id="@+id/playbtn5"
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="240dp"
+                    android:layout_marginTop="150dp"
+                    android:onClick="playptn5"
+                    android:tag="playbtn5"
+                    android:scaleX="2.3"
+                    android:scaleY="2.3"
+                    android:src="@drawable/playbtn" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="610dp">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="60dp"
+                    android:src="@drawable/sleepimg" />
+
+                <ImageView
+                    android:id="@+id/playbtn6"
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="150dp"
+                    android:scaleX="2.3"
+                    android:scaleY="2.3"
+                    android:onClick="playptn6"
+                    android:tag="playbtn6"
+                    android:src="@drawable/playbtn" />
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="220dp"
+                    android:layout_marginTop="60dp"
+                    android:src="@drawable/sleepimg" />
+
+                <ImageView
+                    android:id="@+id/playbtn7"
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="240dp"
+                    android:layout_marginTop="150dp"
+                    android:scaleX="2.3"
+                    android:scaleY="2.3"
+                    android:onClick="playptn7"
+                    android:tag="playbtn7"
+                    android:src="@drawable/playbtn" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="840dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="180dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Rain"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:textSize="30sp">
+                </TextView>
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="60dp"
+                    android:src="@drawable/rainimg" />
+
+                <ImageView
+                    android:id="@+id/playbtn8"
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="150dp"
+                    android:scaleX="2.3"
+                    android:scaleY="2.3"
+                    android:onClick="playptn8"
+                    android:tag="playbtn8"
+                    android:src="@drawable/playbtn" />
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="220dp"
+                    android:layout_marginTop="60dp"
+                    android:src="@drawable/rainimg" />
+
+                <ImageView
+                    android:id="@+id/playbtn9"
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="240dp"
+                    android:layout_marginTop="150dp"
+                    android:onClick="playptn9"
+                    android:tag="playbtn9"
+                    android:scaleX="2.3"
+                    android:scaleY="2.3"
+                    android:src="@drawable/playbtn" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="1030dp">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="60dp"
+                    android:src="@drawable/rainimg" />
+
+                <ImageView
+                    android:id="@+id/playbtn10"
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="150dp"
+                    android:scaleX="2.3"
+                    android:scaleY="2.3"
+                    android:onClick="playptn10"
+                    android:tag="playbtn10"
+                    android:src="@drawable/playbtn" />
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="220dp"
+                    android:layout_marginTop="60dp"
+                    android:src="@drawable/rainimg" />
+
+                <ImageView
+                    android:id="@+id/playbtn11"
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="240dp"
+                    android:layout_marginTop="150dp"
+                    android:scaleX="2.3"
+                    android:scaleY="2.3"
+                    android:onClick="playptn11"
+                    android:tag="playbtn11"
+                    android:src="@drawable/playbtn" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="1260dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="180dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Waterfall"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:textSize="30sp">
+                </TextView>
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="60dp"
+                    android:src="@drawable/waterfallimg" />
+
+                <ImageView
+                    android:id="@+id/playbtn12"
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="150dp"
+                    android:scaleX="2.3"
+                    android:scaleY="2.3"
+                    android:onClick="playptn12"
+                    android:tag="playbtn12"
+                    android:src="@drawable/playbtn" />
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="220dp"
+                    android:layout_marginTop="60dp"
+                    android:src="@drawable/waterfallimg" />
+
+                <ImageView
+                    android:id="@+id/playbtn13"
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="240dp"
+                    android:layout_marginTop="150dp"
+                    android:onClick="playptn13"
+                    android:tag="playbtn13"
+                    android:scaleX="2.3"
+                    android:scaleY="2.3"
+                    android:src="@drawable/playbtn" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="1450dp">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="60dp"
+                    android:src="@drawable/waterfallimg" />
+
+                <ImageView
+                    android:id="@+id/playbtn14"
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="150dp"
+                    android:scaleX="2.3"
+                    android:scaleY="2.3"
+                    android:onClick="playptn14"
+                    android:tag="playbtn14"
+                    android:src="@drawable/playbtn" />
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="220dp"
+                    android:layout_marginTop="60dp"
+                    android:src="@drawable/waterfallimg" />
+
+                <ImageView
+                    android:id="@+id/playbtn15"
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="240dp"
+                    android:layout_marginTop="150dp"
+                    android:scaleX="2.3"
+                    android:scaleY="2.3"
+                    android:onClick="playptn15"
+                    android:tag="playbtn15"
+                    android:src="@drawable/playbtn" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+    </ScrollView>
+    <TextView
+        android:id="@+id/bottomRoundRect"
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="650dp"
+        android:layout_weight="1"
+        android:background="@drawable/asset_7" />
+
+    <ImageButton
+        android:id="@+id/settingBtn"
+        android:layout_width="125px"
+        android:layout_height="125px"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="66dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/asset_9"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/timeLnBtn"
+        android:layout_width="140px"
+        android:layout_height="70px"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="180dp"
+        android:layout_marginBottom="29dp"
+        android:background="@drawable/asset_10"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/titleTxt"
+        android:layout_width="215px"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="49dp"
+        android:layout_marginBottom="27dp"
+        android:fontFamily="sans-serif-thin"
+        android:gravity="center"
+        android:text="SESSIONS"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/backCir"
+        android:layout_width="215px"
+        android:layout_height="215px"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="282dp"
+        android:layout_marginBottom="46dp"
+        android:background="@drawable/asset_11"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/frontCir"
+        android:layout_width="180px"
+        android:layout_height="180px"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="288dp"
+        android:layout_marginBottom="51dp"
+        android:background="@drawable/asset_12"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/sessionsBtn"
+        android:layout_width="125px"
+        android:layout_height="125px"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="298dp"
+        android:layout_marginBottom="61dp"
+        android:background="@drawable/asset_8"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+</RelativeLayout>
